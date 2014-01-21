@@ -37,5 +37,7 @@ int main() {
 		parts.push_back(StringOps::join(values, '='));
 	}
 	cout << "Reassembled: " << StringOps::join(parts, ';') << "\n";
+
+	cout << "Hello" << endl;
 	return 0;
 }
