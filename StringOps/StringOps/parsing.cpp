@@ -39,5 +39,6 @@ int main() {
 	cout << "Reassembled: " << StringOps::join(parts, ';') << "\n";
 
 	cout << "Hello" << endl;
+    cout << "debugging: " << t << endl;
 	return 0;
 }
