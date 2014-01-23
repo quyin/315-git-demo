@@ -2,7 +2,7 @@
 #include "CppUnitTest.h"
 
 #include <string>
-// #include "parsing.h"
+#include "parsing.h"
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
@@ -14,7 +14,14 @@ namespace TestStringOps
 		
 		TEST_METHOD(TestParseAddPlayer)
 		{
-			// TODO: write a unit test for the funciton parseAddPlayer
+			std::string input("AddPlayer 10001 \"Andruid Kerne\"");
+			int playerId;
+			std::string playerName;
+			bool success =
+				StringOps::parseAddPlayer(input, &playerId, &playerName);
+			Assert::IsTrue(success);
+			Assert::AreEqual(10001, playerId);
+			Assert::AreEqual("Andruid Kerne", playerName.c_str());
 		}
 
 	};
