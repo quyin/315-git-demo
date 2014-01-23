@@ -5,6 +5,10 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StringOps", "StringOps\StringOps.vcxproj", "{6408B066-027C-47F8-9127-F60DF33DF87E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StringOpsMain", "StringOpsMain\StringOpsMain.vcxproj", "{EB109FFD-088B-4B7E-9806-8C3D6861CD57}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestStringOps", "TestStringOps\TestStringOps.vcxproj", "{01B874F6-EBFE-4589-B589-0E7AB4BBB8B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -15,6 +19,14 @@ Global
 		{6408B066-027C-47F8-9127-F60DF33DF87E}.Debug|Win32.Build.0 = Debug|Win32
 		{6408B066-027C-47F8-9127-F60DF33DF87E}.Release|Win32.ActiveCfg = Release|Win32
 		{6408B066-027C-47F8-9127-F60DF33DF87E}.Release|Win32.Build.0 = Release|Win32
+		{EB109FFD-088B-4B7E-9806-8C3D6861CD57}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EB109FFD-088B-4B7E-9806-8C3D6861CD57}.Debug|Win32.Build.0 = Debug|Win32
+		{EB109FFD-088B-4B7E-9806-8C3D6861CD57}.Release|Win32.ActiveCfg = Release|Win32
+		{EB109FFD-088B-4B7E-9806-8C3D6861CD57}.Release|Win32.Build.0 = Release|Win32
+		{01B874F6-EBFE-4589-B589-0E7AB4BBB8B9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{01B874F6-EBFE-4589-B589-0E7AB4BBB8B9}.Debug|Win32.Build.0 = Debug|Win32
+		{01B874F6-EBFE-4589-B589-0E7AB4BBB8B9}.Release|Win32.ActiveCfg = Release|Win32
+		{01B874F6-EBFE-4589-B589-0E7AB4BBB8B9}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
