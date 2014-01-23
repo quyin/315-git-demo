@@ -66,12 +66,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\StringOps\main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\StringOps\StringOps.vcxproj">
       <Project>{6408b066-027c-47f8-9127-f60df33df87e}</Project>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

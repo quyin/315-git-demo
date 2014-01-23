@@ -38,6 +38,5 @@ int main() {
 	}
 	cout << "Reassembled: " << StringOps::join(parts, ';') << "\n";
 
-	cout << "Hello" << endl;
 	return 0;
 }

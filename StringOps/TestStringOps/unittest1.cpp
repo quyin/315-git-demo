@@ -2,7 +2,7 @@
 #include "CppUnitTest.h"
 
 #include <string>
-// #include "parsing.h"
+#include "parsing.h"
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
